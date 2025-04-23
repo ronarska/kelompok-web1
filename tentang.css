@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(assets/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.logo {
+    height: 50px;
+    border-radius: 100%;
+}
+
+nav {
+    position: sticky;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    top: 0;
+    background-color: palevioletred;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+    text-size-adjust: 50px;
+    font-size: 15px;
+    height: 35px;
+}
+
+nav ul {
+    position: static;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    position: sticky;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    position: sticky;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    position: sticky;
+    text-decoration: underline;
+}
+
+.welcome {
+    background-color: pink;
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.foto {
+    color: black;
+    background-color: rgb(237, 217, 217, 0.727);
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white; 
+    margin: 30px auto; 
+    padding: 20px;
+    height: 350px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    margin-top: 20px;
+    padding: 0 30px; 
+    max-width: 1200px;
+    margin-bottom: 80px;
+}
+
+.profil1,.profil2,.profil3 {
+    color: black;
+    flex: 2;
+    background-color: rgb(237, 217, 217, 0.727);
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    text-align: left;
+    height: 200px auto;
+}
+
+.profilbawah {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.profil4,.profil5,.profil6 {
+    color: black;
+    flex: 2;
+    background-color: rgb(237, 217, 217, 0.727);
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px white;
+    text-align: left;
+    height: 200px auto;
+    margin-bottom: 100px;
+}
+
+footer {
+    position: static;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
